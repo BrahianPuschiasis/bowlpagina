@@ -67,3 +67,35 @@ h1 {
 
   color: #3c2313;
 }
+
+p {
+  background-color: #3c2313;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.chica {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8a8787;
+}
+
+footer{
+bottom: 0px;
+background: #222222;
+text-align: center;
+color: white;
+}
+
+i{
+color: grey;
+
+}
