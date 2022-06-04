@@ -45,7 +45,7 @@ h1 {
   line-height: 35px;
   text-align: center;
   color: #3c2313;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .precios {
@@ -88,14 +88,9 @@ p {
   color: #8a8787;
 }
 
-footer{
-bottom: 0px;
-background: #222222;
-text-align: center;
-color: white;
-}
-
-i{
-color: grey;
-
+footer {
+  bottom: 0px;
+  background: #222222;
+  text-align: center;
+  color: white;
 }
