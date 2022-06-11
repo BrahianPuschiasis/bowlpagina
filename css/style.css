@@ -1,13 +1,35 @@
+/*   */
 header {
-  background-color: black;
+  display: flex;
+  background-color: #222222;
   color: white;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
+.espacio {
+  padding-left: 8%;
+}
+
+/*  español y arg */
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+/*   */
 .fondo-amarillo {
+  display: flex;
   background-color: #f0a83e;
   color: white;
+  flex-wrap: nowrap;
+  height: 62px;
 }
 
+/*   */
 h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -18,6 +40,7 @@ h1 {
   color: #3c2313;
 }
 
+/*   */
 .bowl {
   height: 890px;
   background-position: center;
@@ -27,6 +50,7 @@ h1 {
   font-family: "Roboto";
 }
 
+/*   */
 .comederos {
   background: #f0a83e;
   font-family: "Roboto";
@@ -37,6 +61,7 @@ h1 {
   color: white;
 }
 
+/*   */
 .productos {
   font-family: "Roboto";
   font-style: normal;
@@ -48,6 +73,7 @@ h1 {
   font-weight: 700;
 }
 
+/*   */
 .precios {
   font-family: "Roboto";
   font-style: normal;
@@ -58,6 +84,7 @@ h1 {
   color: #f0a83e;
 }
 
+/*   */
 .comidas {
   font-family: "Roboto";
   font-style: normal;
@@ -68,6 +95,7 @@ h1 {
   color: #3c2313;
 }
 
+/*   */
 p {
   background-color: #3c2313;
   font-family: "Roboto";
@@ -79,6 +107,7 @@ p {
   color: #ffffff;
 }
 
+/*   */
 .chica {
   font-family: "Roboto";
   font-style: normal;
@@ -88,9 +117,29 @@ p {
   color: #8a8787;
 }
 
+/*   */
 footer {
   bottom: 0px;
   background: #222222;
   text-align: center;
   color: white;
+}
+
+/*   */
+.flexprobando {
+  display: flex;
+}
+
+/*  esta es la listade las patitas con opciones (nav prob) */
+section ul ul {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-right: 15px;
+}
+
+/*  esta es el logo de arriba */
+section ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
