@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+
+
 /*   */
 header {
   display: flex;
@@ -14,10 +18,10 @@ header {
 /*  español y arg */
 header ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 90%;
-  justify-content: flex-end;
   justify-content: space-between;
+
 }
 
 /*   */
@@ -140,6 +144,16 @@ section ul ul {
 /*  esta es el logo de arriba */
 section ul {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
+
+  
+}
+
+
+/*patitas*/
+section ul ul{
+display: flex;
+justify-items: flex-end;
+
 }
